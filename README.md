@@ -12,13 +12,21 @@ Your task is create a very simple database, which has a very limited command set
 
 
 So here is a sample input:
+
 SET a 10
+
 GET a
+
 UNSET a
+
 GET a
+
 END
+
 And its corresponding output:
+
 10
+
 NULL
 
 
