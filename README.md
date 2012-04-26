@@ -3,11 +3,18 @@ SimpleDB
 
 Simple Database
 Your task is create a very simple database, which has a very limited command set. We aren't going to be storing that much data, so you don't have to worry about storing anything on disk; in-memory is fine. All of the commands are going to be fed to you one line at a time via stdin, and your job is the process the commands and perform whatever operation the command dictates. Here are the basic commands you need to handle:
+
 	•	SET [name] [value]: Set a variable [name] to the value [value]. Neither variable names or values will ever contain spaces.
+
 	•	GET [name]: Print out the value stored under the variable [name]. Print NULL if that variable name hasn't been set.
+
 	•	UNSET [name]: Unset the variable [name]
+
 	•	EQUALTO [value]: Return all variables equal to [value]. The variables should be sorted in alphabetical order. Output "NONE" if no variables are equal.
+
 	•	END: Exit the program
+
+
 So here is a sample input:
 SET a 10
 GET a
